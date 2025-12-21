@@ -28,7 +28,7 @@ This ensures:
 
 ⸻
 
-🛡 Authorization Model
+== Authorization Model
 	•	All task routes are protected using JWT middleware
 	•	Tasks are scoped strictly to their owner
 	•	Attempts to access another user’s task return 404, not 403, to avoid data leakage
@@ -69,7 +69,7 @@ Each module encapsulates its own routes, controller, service, and validation log
 
 ⸻
 
-🔮 Future Improvements
+== Future Improvements
 
 If extended further, this project could include:
 	•	Refresh tokens for long-lived sessions
@@ -81,7 +81,7 @@ These were intentionally left out to keep the project focused and maintainable.
 
 ⸻
 
-🧠 Why This Project Exists
+== Why This Project Exists
 
 This project was built to demonstrate:
 	•	a clean backend architecture
