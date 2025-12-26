@@ -62,3 +62,36 @@ This keeps controllers clean and prevents silent failures.
 ---
 
 ## Project Structure
+
+`src/`
+`├── config/`         # Database configuration
+`├── middlewares/`    # Auth, validation, error handling
+`├── models/`         # Mongoose models
+`├── modules/`        # Feature-based modules (auth, tasks)
+`├── utils/`          # Shared utilities (email, errors)
+`├── index.js`        # Application entry point
+
+Each module encapsulates its own routes, controller, service, and validation logic.
+
+---
+
+## Future Improvements
+
+If extended further, this project could include:
+- Refresh tokens for long-lived sessions  
+- Rate limiting and request throttling  
+- Pagination for task lists  
+- Background job processing for emails  
+
+These were intentionally left out to keep the project focused and maintainable.
+
+---
+
+## Why This Project Exists
+
+This project was built to demonstrate:
+- A clean backend architecture  
+- Intentional authentication and authorization design  
+- Real-world trade-offs in API development  
+
+It prioritizes **correctness and clarity** over unnecessary complexity.
