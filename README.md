@@ -63,13 +63,13 @@ This keeps controllers clean and prevents silent failures.
 
 ## Project Structure
 
-`src/`
-`├── config/`         # Database configuration
-`├── middlewares/`    # Auth, validation, error handling
-`├── models/`         # Mongoose models
-`├── modules/`        # Feature-based modules (auth, tasks)
-`├── utils/`          # Shared utilities (email, errors)
-`├── index.js`        # Application entry point
+`src/` <br><br>
+`  ├── config/`         # Database configuration <br><br>
+`  ├── middlewares/`    # Auth, validation, error handling <br><br>
+`  ├── models/`         # Mongoose models <br><br>
+`  ├── modules/`        # Feature-based modules (auth, tasks) <br><br>
+`  ├── utils/`          # Shared utilities (email, errors) <br><br>
+`  ├── index.js`        # Application entry point <br>
 
 Each module encapsulates its own routes, controller, service, and validation logic.
 
