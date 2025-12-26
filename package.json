@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "type": "module",
-  "author": "Ocean",
+  "author": "OceanTech Dev",
   "license": "MIT",
   "dependencies": {
     "@dotenvx/dotenvx": "^1.51.2",
